@@ -5,7 +5,6 @@ import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context'
-import ApolloClient from "apollo-boost";
 
 const client = new ApolloClient({
   request: (operation) => {
